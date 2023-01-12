@@ -130,14 +130,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 ## 3. Consideraciones generales
 * Este proyecto se debe trajar de manera **individual**. 
 * Tiempo estimado para completar las 2 partes: **1-3 _sprints_** (semanas). 
-* Tiempo estimado para completar esta 1era parte: no más de **1 _sprint_** (semanas). 
+* **Tiempo estimado** para completar esta 1era parte: no más de **1 _sprint_** (semanas).👀
 
 ### 3.1 Recomendaciones
 * No te sientas culpable por no saber. SI estás acá es porque quieres aprender, si ya supieras programar estarías trabajando.
 * Enfócate en aprender y no solamente en "completar" el proyecto, "completarlo" es un medio para aprender.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear.
 * Intenta hacer ciclos cortos (horas, no días) de leer/ver videos y probar inmediatamente. Intenta poner a prueba (codear) lo que crees que has entendido al leer o ver algo.
-* No te preocupes po rel aspecto estético-visual en esta primera parte.
+* No te preocupes por el aspecto estético-visual en esta primera parte.
 
 ## 4. Criterios de aceptación mínimos del proyecto
 
