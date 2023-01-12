@@ -7,8 +7,7 @@
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Criterios de aceptación mínimos del proyecto](#4-criterios-de-aceptación-mínimos-del-proyecto)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-* [6. Objetivos de aprendizaje específicos](#7-objetivos-de-aprendizaje)
-* [7. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [6. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -25,7 +24,7 @@ par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![gráfica de algoritmo de Luhn](./AlgoritmoLuhn.png)
 
 No te quedes demasiado tiempo pensando en el algoritmo, lo vas a utilizar para completar el proyecto pero los objetivos de aprendizaje no tratan sobre el algoritmo en sí mismo.
 
@@ -148,9 +147,7 @@ Estos son los requisitos que debe cumplir tu trabajo para que consideremos que h
 * Permitir insertar el número de la tarjeta que se quiere validar (texto) en un campo de texto vacío. 
 * Evitar que puedan escribir caracteres que no sean numéricos (dígitos 0-9).  
 * Impedir que se intente validar si es que el campo está vacío (no se ha escrito nada).  
-* Comunicar a la usuaria si se trata una taerjeta válida o no.  
-* Ocultar todos los dígitos del número de tarjeta con exepción de los últimos
-  4 caracteres.  
+* Comunicar a la usuaria si se trata una taerjeta válida o no.
   
 Tan pronto consideres que tu trabajo cumpla con todos estos criterios, puedes comenzar a trabajar en la segunda parte. 
 
@@ -188,21 +185,11 @@ El boilerplate contiene esta estructura:
   Debes completar la función _isValid_:
   - `isValid(creditCardNumber)`: `creditCardNumber` es un `string`
      con el número de tarjeta que se va a verificar. Esta función debe retornar
-     un `boolean` dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
+     un `boolean` dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://www.youtube.com/watch?v=f0zL6Ot9y_w).
   Finalmente, debes completar la función `validate` para que, según
 el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
 
-## 6. Objetivos de aprendizaje
-
-> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
-> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
-> al crear el repo del proyecto para un cohort en particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
-> que contempla nuestra currícula.
-
-## 7. Pistas, tips y lecturas complementarias
+## 6. Pistas, tips y lecturas complementarias
 
 ### Prepara tu PC para trabajar
 
@@ -215,8 +202,7 @@ el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.app/)
-   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
-   10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+   que incluye [Git bash](https://git-scm.com/download/win).
 3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 4. Para ver la interfaz de tu programa en el navegador, usa el comando
@@ -227,8 +213,6 @@ el resultado de la función `isValid`, muestre al usuario un mensaje apropiado.
 ### Recursos y temas relacionados
 
 * Súmate al canal de Slack destinado a este proyecto [#project-card-validation](https://claseslaboratoria.slack.com/archives/C03LXJ10WJD)
-
-* [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
 * [Guía a través del algoritmo de Luhn](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
@@ -241,4 +225,3 @@ Organización del Trabajo:
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
-
