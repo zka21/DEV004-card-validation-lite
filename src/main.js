@@ -2,7 +2,7 @@
 
 const numeroTarjeta = document.getElementById("cardnumber"); // input
 const botonValidar = document.getElementById("botonValidar"); // button 
-
+let tarjetaValida  = document.getElementById("tarjetaValida");
 botonValidar.addEventListener("click", isValid);
 numeroTarjeta.addEventListener("input", validarCantidadDeDigitos)
 
@@ -51,7 +51,20 @@ function isValid() {
     digitosInvertido[i]=producto
     
   }
-  console.log(digitosInvertido);
+let suma =0;
+for (let n of digitosInvertido){
+  suma += n;
+}
+
+  console.log(suma);
+  let resultado = 0;
+  if(suma % 10 == 0 ){
+    resultado = "La tarjeta ingresada es valida.";
+  } else{
+    resultado = "La tarjeta ingresada no es valida.";
+  }
+ document.getElementById("tarjetaValida").innerHTML = resultado;
+
 }
 
 
